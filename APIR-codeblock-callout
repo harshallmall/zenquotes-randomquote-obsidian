@@ -1,0 +1,6 @@
+> [!info]- ZenQuotes API Quote Request
+> ```req
+> url: https://zenquotes.io/api/random
+> req-uuid: qotd
+> show: $.date
+> ```
