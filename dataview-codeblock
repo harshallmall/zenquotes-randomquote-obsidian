@@ -1,0 +1,8 @@
+```dataviewjs
+(async () => {
+const qotd = localStorage.getItem("req-qotd");
+if (!qotd) { dv.paragraph("ZenQuotes API is loading..."); return; }
+const [{ q, a }] = JSON.parse(qotd);
+dv.paragraph(`> ${q}\n> -\*\*${a}**`);
+})();
+```
